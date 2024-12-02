@@ -1,33 +1,34 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>jQuery Nice Snowing Plugin Demo</title>
-  <script src="js/jquery-2.1.1.min.js"></script>
-  <script src="js/snow-plugin.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Bảng cá nhân</title>
+    <script src="bảng/js/jquery-2.1.1.min.js"></script>
+    <script src="bảng/js/snow-plugin.js"></script>
 </head>
-<body>
-  </div>
+</body>
   <style>
     body{
-      background:#ffffff;
-      color:#fff;
+        background:#ffffff;
+        color:#fff;
+        background-image: url(bảng/image.png);
+        background-size: 100%;
     }
     /* Chế độ tối */
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) {
       body {
         background: #000000;
         color: #ffffff;
       }
-    }
+    } */
     .snow-canvas {
-      display: block;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      position: fixed;
-      pointer-events: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: fixed;
+        pointer-events: none;
     }
   </style>
   <div class="jquery-script-ads">
@@ -66,4 +67,5 @@
       })();
   </script>
 </body>
+
 </html>
